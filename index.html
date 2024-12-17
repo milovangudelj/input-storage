@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input storage</title>
+    <script type="module" src="/src/main.js" defer></script>
+  </head>
+  <body
+    class="min-h-dvh flex items-center justify-center bg-gray-950 text-white"
+  >
+    <div class="flex gap-8 items-center justify-center relative">
+      <div class="flex flex-col gap-8 relative">
+        <div
+          class="bg-white/5 w-[400px] mx-auto p-4 flex flex-col gap-4 border border-white/[0.06] rounded-lg"
+        >
+          <div>
+            <h1 class="text-lg">
+              <pre
+                class="font-mono leading-none text-white bg-white/5 inline-block p-1 rounded border border-white/[0.06]"
+              >
+history.replaceState()</pre
+              >
+            </h1>
+            <p class="text-white/40">Aggiunge i parametri all'url</p>
+          </div>
+          <form id="form_a" class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
+              <label for="name" class="text-sm text-white/70">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="surname" class="text-sm text-white/70">Surname</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-fit bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-400 focus:bg-blue-600 focus:outline-none transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <div
+          class="bg-white/5 w-[400px] mx-auto p-4 flex flex-col gap-4 border border-white/[0.06] rounded-lg"
+        >
+          <div>
+            <h1 class="text-lg">
+              <pre
+                class="font-mono leading-none text-white bg-white/5 inline-block p-1 rounded border border-white/[0.06]"
+              >
+history.replaceState()</pre
+              >
+            </h1>
+            <p class="text-white/40">
+              Prende i parametri dall'url se ce ne sono
+            </p>
+          </div>
+          <form id="form_b" class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
+              <label for="name" class="text-sm text-white/70">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="surname" class="text-sm text-white/70">Surname</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-fit bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-400 focus:bg-blue-600 focus:outline-none transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <span
+        class="absolute w-px block -top-8 -bottom-8 left-1/2 -translate-x-1/2 bg-white/[0.06]"
+      ></span>
+      <span
+        class="absolute h-px block -left-8 -right-8 top-1/2 -translate-y-1/2 bg-white/[0.06]"
+      ></span>
+      <div class="flex flex-col gap-8 relative">
+        <div
+          class="bg-white/5 w-[400px] mx-auto p-4 flex flex-col gap-4 border border-white/[0.06] rounded-lg"
+        >
+          <div>
+            <h1 class="text-lg">
+              <pre
+                class="font-mono leading-none text-white bg-white/5 inline-block p-1 rounded border border-white/[0.06]"
+              >
+localStorage</pre
+              >
+            </h1>
+            <p class="text-white/40">Aggiunge i parametri a localStorage</p>
+          </div>
+          <form id="form_c" class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
+              <label for="name" class="text-sm text-white/70">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="surname" class="text-sm text-white/70">Surname</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-fit bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-400 focus:bg-blue-600 focus:outline-none transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <div
+          class="bg-white/5 w-[400px] mx-auto p-4 flex flex-col gap-4 border border-white/[0.06] rounded-lg"
+        >
+          <div>
+            <h1 class="text-lg">
+              <pre
+                class="font-mono leading-none text-white bg-white/5 inline-block p-1 rounded border border-white/[0.06]"
+              >
+localStorage</pre
+              >
+            </h1>
+            <p class="text-white/40">
+              Prende i parametri da localStorage se ce ne sono
+            </p>
+          </div>
+          <form id="form_d" class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
+              <label for="name" class="text-sm text-white/70">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="surname" class="text-sm text-white/70">Surname</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                class="p-2 rounded-lg border border-white/[0.06] bg-transparent focus:bg-white/5 focus:outline-none transition"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-fit bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-400 focus:bg-blue-600 focus:outline-none transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
